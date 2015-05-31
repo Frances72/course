@@ -49,7 +49,7 @@ public class FacultyPage {
                     .resid(faculty.getId())
                     .build();
             Link departments = new
-                    Link("http://localhost:8080/faculty/"+res.getResid().toString())
+                    Link("http://localhost:8184/faculty/"+res.getResid().toString())
                     .withRel("depts");
             res.add(departments);
             hateos.add(res);
